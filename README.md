@@ -11,6 +11,7 @@ Movie Magnet is a web application developed using React. This dynamic and fully 
 ## Key Learnings
 
 - Learn't about
+  - creating react project using `vite`
   - mixins in `sass`
   - building complete project using `sass` without any third-party ui package
   - query params and `useParams` hook in `react-router`
