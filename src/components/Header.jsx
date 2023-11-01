@@ -4,7 +4,6 @@ import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
 import { useNavigate, useLocation } from "react-router-dom";
 import ContentWrapper from "./ContentWrapper";
-import logo from "../assets/movie-magnet-logo.svg";
 
 const Header = () => {
     const [show, setShow] = useState("top");
@@ -71,7 +70,7 @@ const Header = () => {
         <header className={`header ${mobileMenu ? "mobileView" : ""} ${show}`}>
             <ContentWrapper>
                 <div className="logo" onClick={() => navigate("/")}>
-                    <img src={logo} alt="" />
+                    Movie Magnet
                 </div>
                 <ul className="menuItems">
                     <li
