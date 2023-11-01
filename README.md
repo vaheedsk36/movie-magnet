@@ -11,7 +11,7 @@ Movie Magnet is a web application developed using React. This dynamic and fully 
 
 ## Preview
 
-![image]("https://github.com/vaheedsk36/movie-magnet/assets/72762824/30a46bfe-69cc-41ba-82f0-0c53e2e55250")
+![image](https://github.com/vaheedsk36/movie-magnet/assets/72762824/30a46bfe-69cc-41ba-82f0-0c53e2e55250)
 
 ## Setup Instructions
 
