@@ -1,10 +1,8 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { getMoviesData } from "./utils/api";
-
 import { useSelector, useDispatch } from "react-redux";
 import { getApiConfiguration, getGenres } from "./features/homeSlice";
-
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";

@@ -1,3 +1,39 @@
+.carouselSection {
+    position: relative;
+    margin-bottom: 70px;
+    & > .contentWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .carouselTitle {
+        font-size: 24px;
+        color: white;
+        font-weight: normal;
+    }
+}
+
+.contentWrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.genres {
+    display: flex;
+    gap: 5px;
+    .genre {
+        background-color: var(--pink);
+        padding: 3px 5px;
+        font-size: 12px;
+        border-radius: 4px;
+        color: white;
+        white-space: nowrap;
+    }
+}
+
 .videoPopup {
     display: flex;
     justify-content: center;
@@ -48,3 +84,5 @@
         }
     }
 }
+
+

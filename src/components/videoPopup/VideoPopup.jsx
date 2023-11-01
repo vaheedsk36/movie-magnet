@@ -1,8 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player/youtube";
 
-import "./style.scss";
-
 const VideoPopup = ({ show, setShow, videoId, setVideoId }) => {
     const hidePopup = () => {
         setShow(false);
