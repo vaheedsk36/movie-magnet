@@ -6,11 +6,11 @@ import {
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import dayjs from "dayjs";
-import ContentWrapper from "../contentWrapper/ContentWrapper";
-import Img from "../lazyLoadImage/Img";
+import ContentWrapper from "../ContentWrapper";
+import Img from "../lazy-load-image/Img";
 import PosterFallback from "../../assets/no-poster.png";
-import CircleRating from "../circleRating/CircleRating";
-import Genres from "../genres/Genres";
+import CircleRating from "../CircleRating";
+import Genres from "../Genres";
 
 const Carousel = ({ data, loading, endpoint, title }) => {
     const carouselContainer = useRef();

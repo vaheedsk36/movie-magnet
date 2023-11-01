@@ -2,10 +2,10 @@ import React from "react";
 import dayjs from "dayjs";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-import Img from "../lazyLoadImage/Img";
-import CircleRating from "../circleRating/CircleRating";
-import Genres from "../genres/Genres";
-import PosterFallback from "../../assets/no-poster.png";
+import Img from "./lazy-load-image/Img";
+import CircleRating from "./CircleRating";
+import Genres from "./Genres";
+import PosterFallback from "../assets/no-poster.png";
 
 const MovieCard = ({ data, fromSearch, mediaType }) => {
     const { url } = useSelector((state) => state.home);
@@ -15,7 +15,7 @@ const MovieCard = ({ data, fromSearch, mediaType }) => {
         : PosterFallback;
     return (
         <div
-            className="movieCard"
+            className="movie-card"
             onClick={() =>
                 navigate(`/${data.media_type || mediaType}/${data.id}`)
             }

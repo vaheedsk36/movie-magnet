@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { getMoviesData } from "../../utils/api";
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
-import MovieCard from "../../components/movieCard/MovieCard";
-import Spinner from "../../components/spinner/Spinner";
+import ContentWrapper from "../../components/ContentWrapper";
+import MovieCard from "../../components/MovieCard";
+import Spinner from "../../components/Spinner";
 
 const SearchResult = () => {
     const [data, setData] = useState(null);

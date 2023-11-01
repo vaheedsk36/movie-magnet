@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
-import VideoPopup from "../../components/videoPopup/VideoPopup";
-import Img from "../../components/lazyLoadImage/Img";
+import ContentWrapper from "../../components/ContentWrapper";
+import VideoPopup from "../../components/VideoPopup";
+import Img from "../../components/lazy-load-image/Img";
 import { PlayIcon } from "./Playbtn";
 
 const VideosSection = ({ data, loading }) => {

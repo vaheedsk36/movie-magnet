@@ -3,8 +3,8 @@ import { HiOutlineSearch } from "react-icons/hi";
 import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
 import { useNavigate, useLocation } from "react-router-dom";
-import ContentWrapper from "../contentWrapper/ContentWrapper";
-import logo from "../../assets/movie-magnet-logo.svg";
+import ContentWrapper from "./ContentWrapper";
+import logo from "../assets/movie-magnet-logo.svg";
 
 const Header = () => {
     const [show, setShow] = useState("top");
