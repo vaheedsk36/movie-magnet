@@ -38,7 +38,7 @@ const Explore = () => {
             if (data?.results) {
                 setData({
                     ...data,
-                    results: [...data?.results, ...res.results],
+                    results: [...(data?.results ?? []), ...(res?.results ?? [])],
                 });
             } else {
                 setData(res);
@@ -54,6 +54,7 @@ const Explore = () => {
         setSortby(null);
         setGenre(null);
         fetchInitialData();
+    // eslint-disable-next-line
     }, [mediaType]);
 
     const onChange = (selectedItems, action) => {
