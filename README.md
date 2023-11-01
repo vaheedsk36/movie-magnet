@@ -8,6 +8,11 @@ Movie Magnet is a web application developed using React. This dynamic and fully 
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=flat&logo=eslint&logoColor=white)
 
+
+## Preview
+
+![image]("https://github.com/vaheedsk36/movie-magnet/assets/72762824/30a46bfe-69cc-41ba-82f0-0c53e2e55250")
+
 ## Setup Instructions
 
 - Clone the repository and install the packages
