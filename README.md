@@ -8,6 +8,13 @@ Movie Magnet is a web application developed using React. This dynamic and fully 
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=flat&logo=eslint&logoColor=white)
 
+## Key Learnings
+
+- Learn't about
+  - mixins in `sass`
+  - building complete project using `sass` without any third-party ui package
+  - query params and `useParams` hook in `react-router`
+  - infinite scroll (using `react-infinite-scroller-component`)
 
 ## Preview
 
