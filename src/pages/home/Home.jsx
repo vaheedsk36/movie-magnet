@@ -1,8 +1,8 @@
 import React from "react";
-import HeroBanner from "./heroBanner/HeroBanner";
-import Trending from "./trending/Trending";
-import Popular from "./popular/Popular";
-import TopRated from "./topRated/TopRated";
+import HeroBanner from "./HeroBanner";
+import Trending from "./Trending";
+import Popular from "./Popular";
+import TopRated from "./TopRated";
 
 const Home = () => {
     return (
