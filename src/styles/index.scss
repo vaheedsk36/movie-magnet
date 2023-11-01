@@ -3,6 +3,8 @@
 @import "./cast.scss";
 @import "./header.scss";
 @import "./footer.scss";
+@import "./search-result.scss";
+@import "./movie-card.scss";
 @import "./carousel.scss";
 @import "./circle-rating.scss";
 @import "./explore.scss";
@@ -17,7 +19,6 @@
     font-size: 16px;
     line-height: 1;
     font-weight: 500;
-
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
